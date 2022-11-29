@@ -10,25 +10,85 @@
 }
 
 .info{
-    display: inline-block;
-    background-color: brown;
-    width: 100%;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .content h1{
     display: inline-block;
 }
 
-.stack-logo{
-    min-width: 300px;
-    background-color: aqua;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .stack-logo img{
     height: 100px;
     display: block;
-    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    filter: grayscale(80%);
+}
 
+.stack-logo img:hover{
+    filter: grayscale(0%);
+    transition: 0.2s;
+}
+
+
+@media (min-width: 700px){
+    .stack_wrap{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .stack{
+        width: 32%;
+        display: inline-block;
+    }
+    
+
+
+} 
+    
+.info2 {
+    width: 100%;
+    display:inline-block;
+}
+
+.info2 p{
+    display:block;
+    margin:0;
+    padding: 0;
+    text-align: left;
+}
+
+.info2 a{
+    color: #044734;
+}
+
+.info2 p{
+    padding-bottom: 10px;
+}
+
+.info2 .page{
+    padding-left:10px;
+}
+
+@media (min-width: 1200px){
+    .wrap{
+        padding-top: 30px;
+    }
+
+    .wrap h1, .wrap p{
+        padding-left: 30px;
+    }
+
+    .wrap .page {
+        padding-left: 50px;
+    }
+    .into2{
+        background-color: #044734;
+        padding-left: 30px;
+    }
 }
